@@ -1,0 +1,10 @@
+#
+# fips-cjson
+#
+---
+exports:
+    header-dirs:
+        - cJSON
+    modules:
+        cjson: .
+
