@@ -12,7 +12,7 @@ endif()
 
 fips_begin_lib(cjson)
     fips_dir(cJSON GROUP .)
-    fips_files(cJSON.c cJSON.h)
+    fips_files(cJSON.c cJSON.h cJSON_Utils.c cJSON_Utils.h)
 fips_end_lib()
 
 if (NOT FIPS_IMPORT)
